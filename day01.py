@@ -1,4 +1,10 @@
-fahrenheit = float(input('화씨 온도 : '))
-# 변수 이름은 조금 길더라도 의미를 담도록
-celsius = (fahrenheit - 32.0) * (5.0/9.0)
-print(f'화씨 온도 {fahrenheit}도는 섭씨 온도 {celsius}입니다')
+# 교재 countdown 예제
+# for countdown in 5, 4, 3, 2, 1, "hey!":
+#     print(countdown)
+
+countdown_list = [5, 4, 3, 2, 1, "hey!"]
+for countdown in countdown_list:
+    print(countdown)
+print(countdown_list[3])
+print(countdown_list[-1])
+print("프로그램 종료")
